@@ -1,0 +1,21 @@
+<!-- 
+    DownloadFilesQuickAction.cmp
+    Lightning component for initiating a file download process.
+    @description This component serves as a quick action to trigger the file download process. 
+                 It displays a loading message and spinner while waiting for the process to complete.
+    @owner Dheeraj Sharma
+-->
+<aura:component controller="DownloadController" implements="force:lightningQuickActionWithoutHeader,force:hasRecordId">
+    <!-- Include JSZip library -->
+    <ltng:require scripts="{!$Resource.JSZIP2}" afterScriptsLoaded="{!c.initializeDownloadProcess}" />
+    
+    <!-- Loading card with spinner -->
+    <div class="slds-card">
+        <div class="slds-text-align_center">
+            <span class="slds-text-heading_medium">Please Wait...</span>
+            <div class="slds-m-top_medium">
+                <lightning:spinner alternativeText="Loading" size="medium" variant="brand" />
+            </div>
+        </div>
+    </div>
+</aura:component>
