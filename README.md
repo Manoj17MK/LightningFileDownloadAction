@@ -1,10 +1,13 @@
-# Download Files Quick Action Lightning Component : Salesforce
+# Download Files Quick Action Lightning Component: Salesforce
 
 ## Overview
 
-The DownloadFilesQuickAction Lightning component is designed to serve as a quick action within Salesforce Lightning Experience. This component enables users to initiate a file download process associated with a record. It displays a loading message and a spinner while awaiting the completion of the download process.
+The DownloadFilesQuickAction Lightning component is designed to serve as a quick action within the Salesforce Lightning Experience. This component enables users to initiate a file download process associated with a record. It displays a loading message and a spinner while awaiting the completion of the download process.
 
 **Owner:** Dheeraj Sharma
+
+## Demo:
+![](https://github.com/Dheeraj5861/LightningFileDownloadAction/blob/master/Demo.gif)
 
 ## Prerequisites
 
